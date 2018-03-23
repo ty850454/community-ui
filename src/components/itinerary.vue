@@ -9,7 +9,7 @@
         <p>￥{{price}}</p>
     </div>
     <div class="itinerary-tag">{{tag}}</div>
-    <a :href="url">查看详情</a>
+    <router-link :to="url">查看详情</router-link>
   </div>
 </template>
 

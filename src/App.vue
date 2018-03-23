@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <router-view class="view"></router-view>
+    <keep-alive include="home">
+      <router-view class="view"></router-view>
+    </keep-alive>
     <tabbar>
         <tabbar-item>
           <i slot="icon" class="iconfont icon-jingxuan"></i>

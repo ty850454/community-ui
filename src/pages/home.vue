@@ -8,6 +8,7 @@
       :price="itinerary.price"
       :tag="itinerary.tag"
       :src="itinerary.src"
+      :url="'info/' + itinerary.id"
       />
     </itinerarys>
   </div>

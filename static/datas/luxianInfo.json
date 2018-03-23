@@ -1,0 +1,28 @@
+{
+    "1": {
+        "id": 1,
+        "imgs":[{
+            "img": "http://placeholder.qiniudn.com/800x300/FF3B3B/ffffff"
+          }, {
+            "img": "http://placeholder.qiniudn.com/800x300/FFEF7D/ffffff"
+          }, {
+            "img": "http://placeholder.qiniudn.com/800x300/8AEEB1/ffffff"
+          }
+        ],
+        "title": "大理双廊二日骑纯玩苍山洱海索道",
+        "price": 199
+    },
+    "2": {
+        "id": 2,
+        "imgs":[{
+            "img": "http://placeholder.qiniudn.com/800x300/FF3B3B/ffffff"
+          }, {
+            "img": "http://placeholder.qiniudn.com/800x300/FFEF7D/ffffff"
+          }, {
+            "img": "http://placeholder.qiniudn.com/800x300/8AEEB1/ffffff"
+          }
+        ],
+        "title": "泰国曼谷芭提雅6天5晚奢华游",
+        "price": 3780
+    }
+}

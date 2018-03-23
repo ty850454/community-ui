@@ -5,7 +5,7 @@ import Home from '@/components/HelloFromVux'
 
 
 import pages_home from '@/pages/home'
-
+import pages_info from '@/pages/info'
 
 
 
@@ -17,6 +17,10 @@ export default new Router({
       path: '/',
       name: 'home',
       component: pages_home
+    },{
+      path: '/info/:id',
+      name: 'info',
+      component: pages_info
     }
   ]
 })
