@@ -6,9 +6,9 @@
     <div class="itinerary-text">
         <p>{{title}}</p>
         <p>{{desc}}</p>
-        <p>￥{{price}}</p>
+        <p v-if="price">￥{{price}}</p>
     </div>
-    <div class="itinerary-tag">{{tag}}</div>
+    <div v-if="tag" class="itinerary-tag">{{tag}}</div>
     <router-link :to="url">查看详情</router-link>
   </div>
 </template>
@@ -30,17 +30,17 @@ export default {
     position: relative;
 }
 .itinerary-img {
-    width: 100%;
-    height: 150px;
-    background-color: cadetblue;
-    overflow:hidden;
+    min-height: 150px;
+    overflow: hidden;
 }
 .itinerary-img> img {
     width: 100%;
+    display: block;
+    /* height: 100%;  */
 }
 .itinerary-text {
     padding: 0 5px;
-    height: 70px;
+    min-height: 70px;
     background-color: white;
 }
 
